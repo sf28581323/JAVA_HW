@@ -7,9 +7,11 @@ public class text {
 
 	public static void main(String[] args) {
 		scanner = new java.util.Scanner(System.in);
+		while(scanner.hasNext()){
 		int a = scanner.nextInt();
 		int b = scanner.nextInt();
 		System.out.println(a+b);
+		}
 
 
 	}
